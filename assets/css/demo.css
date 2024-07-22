@@ -222,31 +222,6 @@ body[data-background-color="dark"] .demo-icon .icon-class {
 .btnSwitch button[data-color="bg3"] {
   background-color: #f1f1f1; }
 
-#modalShowcase .btn-close {
-  background: #ff0000;
-  opacity: 0.7;
-  display: flex; }
-  #modalShowcase .btn-close svg {
-    fill: #fff;
-    width: 16px;
-    height: 16px; }
-#modalShowcase .preview-showcase {
-  background: #F1F1F4;
-  border-radius: 8px;
-  padding: 24px 32px;
-  padding-bottom: 0;
-  padding-right: 0;
-  overflow: hidden;
-  transition: all .3s ease; }
-  #modalShowcase .preview-showcase:hover {
-    transform: translateY(-2.5%);
-    background: #e9f6f9; }
-#modalShowcase .preview-title {
-  color: #071437;
-  font-weight: 700;
-  font-size: 16px;
-  margin-bottom: 22.750px; }
-#modalShowcase .preview-img {
   width: 100% !important;
   height: auto;
   object-fit: cover;
@@ -280,7 +255,7 @@ body[data-background-color="dark"] .demo-icon .icon-class {
     transition: color .2s ease; }
 
 @media screen and (max-width: 1200px) {
-  #modalShowcase .modal-dialog {
+
     padding: 3rem !important; } }
 @media screen and (max-width: 550px) {
   .table-typo tr td {
@@ -290,11 +265,6 @@ body[data-background-color="dark"] .demo-icon .icon-class {
     .table-typo tr td:first-child p {
       margin-bottom: 0px; }
 
-  #modalShowcase .modal-dialog {
-    padding: 32px !important; }
-  #modalShowcase h3 {
-    font-size: 16px; }
-  #modalShowcase .preview-showcase {
     padding: 24px;
     padding-right: 0;
     padding-bottom: 0; } }
